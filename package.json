@@ -7,7 +7,7 @@
   "author": "monco <moncodp@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "build": "webpack --mode=developmet"
+    "build": "webpack --mode=development"
   },
   "devDependencies": {
     "@types/node": "^15.0.1",
