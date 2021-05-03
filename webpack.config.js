@@ -6,6 +6,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 module.exports = {
     entry: './src/main.ts',
     output: {
+        clean: true,
         path: path.resolve(__dirname, 'dist'),
         filename: 'bundle-[hash].js',
     },
