@@ -25,4 +25,19 @@ export function findIntersection(headA: ListNode | null, headB: ListNode | null)
     return null;
 }
 
-console.log(findIntersection(listWithIntersection1.head, listWithIntersection2.head));
+/* More elegant solutuin which found here:
+    https://dev.to/seanpgallivan/solution-intersection-of-two-linked-lists-478e#idea
+*/
+export function findIntersection2(headA: ListNode | null, headB: ListNode | null): ListNode | null {
+    let currentA = headA;
+    let currentB = headB;
+
+    while (currentA !== currentB) {
+        currentA = !currentA ? headB : currentA.next;
+        currentB = !currentB ? headA : currentB.next;
+    }
+
+    return currentA;
+}
+
+console.log(findIntersection2(listWithIntersection1.head, listWithIntersection2.head));
