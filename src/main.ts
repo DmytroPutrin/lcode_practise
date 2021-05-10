@@ -5,3 +5,4 @@ export * from "./linked-list/removeNodeFromEnd";
 export * from "./linked-list/reverse";
 export * from "./linked-list/removeElements";
 export * from "./linked-list/DublyLinkedList";
+export * from "./linked-list/isPalindrome";
