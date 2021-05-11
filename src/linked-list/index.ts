@@ -7,3 +7,4 @@ export * from "./oddEvenList";
 export * from "./removeElements";
 export * from "./removeNodeFromEnd";
 export * from "./reverse";
+export * from "./mergeTwoLists";
