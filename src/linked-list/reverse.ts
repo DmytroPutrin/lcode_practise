@@ -1,5 +1,4 @@
 import { ListNode } from "./ListNode";
-import { MyLinkedList } from "./LinkedList";
 import { createList } from  "./constant";
 
 export function reverseList(head: ListNode | null): ListNode | null {
@@ -23,7 +22,7 @@ export function reverseList(head: ListNode | null): ListNode | null {
     }
 
     return head;
-};
+}
 
 const list = createList(5);
 console.log(reverseList(list.head));
