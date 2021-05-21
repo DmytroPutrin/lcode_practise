@@ -15,6 +15,8 @@ export class DoublyListNode {
 
     public next: DoublyListNode | null = null;
 
+    public child: DoublyListNode | null = null;
+
     constructor(value: number) {
         this.value = value;
     }

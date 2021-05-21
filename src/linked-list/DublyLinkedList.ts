@@ -147,7 +147,7 @@ export class DoublyLinkedList {
         return length;
     }
 
-    private getNodeByIndex(index: number): DoublyListNode | null {
+    getNodeByIndex(index: number): DoublyListNode | null {
         if (!this.head || index === 0) {
             return this.head;
         }
