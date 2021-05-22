@@ -10,3 +10,5 @@ export * from "./reverse";
 export * from "./mergeTwoLists";
 export * from "./deleteDuplicates";
 export * from "./addTwoNumbers";
+export * from "./flatten";
+export * from "./swapPairs";
